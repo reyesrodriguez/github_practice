@@ -31,6 +31,10 @@ add.put('/cheeses/:id', function(req,res){
 	//update chesses to database and render them to an ejs file
 })
 
+add.delete('/cheeses/:id', function(req,res){
+	//delete cheeses by id 
+})
+
 app.listen(3000, function(){
     console.log('listening on port 3000!')
 });
