@@ -27,6 +27,10 @@ app.post('/cheeses', function(req,res){
 	//post new cheeses on Database and render them to an ejs file
 })
 
+add.put('/cheeses/:id', function(req,res){
+	//update chesses to database and render them to an ejs file
+})
+
 app.listen(3000, function(){
     console.log('listening on port 3000!')
 });
